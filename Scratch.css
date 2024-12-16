@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scratch Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="professional.html">Professional Page</a>
+        <a href="app.html">App</a>
+    </nav>
+
+    <section>
+        <h2>Pittsburgh Steelers</h2>
+        <p>The Pittsburgh Steelers are a professional football team based in Pittsburgh, Pennsylvania.</p>
+
+        <h3>Accomplishments</h3>
+        <ol>
+            <li>6 Super Bowls
+                <ul>
+                    <li>Won in 1975</li>
+                    <li>Won in 2009</li>
+                </ul>
+            </li>
+            <li>Strong defense in 2024</li>
+        </ol>
+
+        <h3>Media</h3>
+        <img src="https://vignette1.wikia.nocookie.net/collegefootballmania/images/4/45/Steelers_6_Super_Bowl_Lombardi_Trophies.png/revision/latest?cb=20120511064407" 
+             alt="Steelers Logo" style="max-width:100%;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/cwGaTu71TYA?start=2" 
+                title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+        <h3>Steelers Tableau Visualization</h3>
+        <div class='tableauPlaceholder' id='viz1734321199233' style='position: relative'>
+            <noscript>
+                <a href='#'><img alt='Dashboard 2' 
+                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mi&#47;MinkahFitzpatrickSteelersAnalysis&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a>
+            </noscript>
+            <object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='name' value='MinkahFitzpatrickSteelersAnalysis&#47;Dashboard2' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+            </object>
+        </div>
+        <script src="https://public.tableau.com/javascripts/api/viz_v1.js"></script>
+    </section>
+
+    <footer>
+        <a href="app.html">Go to App</a>
+    </footer>
+</body>
+</html>
