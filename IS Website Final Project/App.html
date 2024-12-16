@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Joke Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="professional.html">Professional Page</a>
+        <a href="scratch.html">Scratch Page</a>
+    </nav>
+
+    <main>
+        <h1>Random Joke Generator</h1>
+        <div id="app"></div>
+    </main>
+
+    <footer>
+        &copy; 2024 App Page
+    </footer>
+
+    <script>
+        const app = document.getElementById('app');
+        const button = document.createElement('button');
+        button.textContent = 'Click for a random joke';
+        button.onclick = () => {
+            const jokes = [
+                'Why don\'t skeletons fight each other? They don\'t have the guts.',
+                'What do you call cheese that isn\'t yours? Nacho cheese.',
+                'Why couldn\'t the bicycle stand up by itself? It was two tired.'
+            ];
+            alert(jokes[Math.floor(Math.random() * jokes.length)]);
+        };
+        app.appendChild(button);
+    </script>
+</body>
+</html>
